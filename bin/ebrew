@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo su brew -c "$@"
+sudo su brew -c "${@}"
