@@ -3,6 +3,19 @@ A seperate user that manages homebrew. This would be useful for systems that hav
 
 All users can execute programs installed with brew but csn't make any changes in the brew directory except for brew user and of course root (which shouldn't be used for homebrew)
 
+# Overview
+Brew should work like normal but executing the command would be a little different
+
+## Three commands are added
+
+`brewsh` run this to enter a shell in the brew user
+
+`ebrew` execute commands with privleges of the brew user
+
+`sbrew` runs the `brew` command as brew. Works the same way as the brew command so args and flags would be the same as brew
+
+brew can be used for things that don't require writing data (like listing packages)
+
 ## Installation
 
 Run this in the terminal
