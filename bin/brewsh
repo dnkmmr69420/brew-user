@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+SHELL_VAR=$SHELL
 
-sudo su brew -c "$SHELL"
+sudo su brew -c "$SHELL_VAR"
