@@ -2,6 +2,8 @@
 
 sudo rm -rf /home/.brewuser
 sudo useradd brew -d /home/.brewuser
+sudo mkdir -p /home/.brewuser
+sudo chown -R brew:brew /home/.brewuser
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
