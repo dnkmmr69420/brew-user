@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo su brew -c "/home/linuxbrew/.linuxbrew/bin/brew "${@}""
