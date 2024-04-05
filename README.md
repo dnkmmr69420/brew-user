@@ -4,7 +4,7 @@ A seperate user that manages homebrew. This would be useful for systems that hav
 All users can execute programs installed with brew but csn't make any changes in the brew directory except for brew user and of course root (which shouldn't be used for homebrew)
 
 # Overview
-Brew should work like normal but executing the command would be a little different
+Brew should work like normal but executing the command would be a little different. These commands use the sudo password.
 
 ## Three commands are added
 
