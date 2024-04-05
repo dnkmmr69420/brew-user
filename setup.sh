@@ -16,6 +16,9 @@ sudo rm -f /usr/local/bin/sbrew
 sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/brewsh
 sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/ebrew
 sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/sbrew
+if ! [ -f /etc/profile.d/brew.sh ]; then
+  sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/profile.d/brew.sh
+fi
 
 sudo chmod +x /usr/local/bin/brewsh
 sudo chmod +x /usr/local/bin/ebrew
