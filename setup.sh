@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo rm -rf /home/.brewuser
-sudo useradd brew -d /home/.brewuser
+sudo useradd brew -d /home/.brewuser -u 813
 sudo mkdir -p /home/.brewuser
 sudo chown -R brew:brew /home/.brewuser
 
@@ -9,17 +9,17 @@ sudo chown -R brew:brew /home/.brewuser
 
 sudo chown -R brew:brew /home/linuxbrew
 
-sudo rm -f /usr/local/bin/brewsh
-sudo rm -f /usr/local/bin/ebrew
-sudo rm -f /usr/local/bin/sbrew
+sudo rm -f /home/linuxbrew/.linuxbrew/bin/brewsh
+sudo rm -f /home/linuxbrew/.linuxbrew/bin/ebrew
+sudo rm -f /home/linuxbrew/.linuxbrew/bin/sbrew
 
-sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/brewsh
-sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/ebrew
-sudo wget -P /usr/local/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/sbrew
+sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/brewsh
+sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/ebrew
+sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/sbrew
 if ! [ -f /etc/profile.d/brew.sh ]; then
   sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/profile.d/brew.sh
 fi
 
-sudo chmod +x /usr/local/bin/brewsh
-sudo chmod +x /usr/local/bin/ebrew
-sudo chmod +x /usr/local/bin/sbrew
+sudo chmod +x /home/linuxbrew/.linuxbrew/bin/brewsh
+sudo chmod +x /home/linuxbrew/.linuxbrew/bin/ebrew
+sudo chmod +x /home/linuxbrew/.linuxbrew/bin/sbrew
