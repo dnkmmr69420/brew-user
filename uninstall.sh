@@ -2,7 +2,7 @@
 
 sudo echo "Uninstalling homebrew..."
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
 sudo echo "Finnishing up..."
 
