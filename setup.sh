@@ -2,6 +2,7 @@
 
 sudo rm -rf /home/.brewuser
 sudo useradd brew -d /home/.brewuser -u 813
+sudo groupmod -g 813 brew
 sudo mkdir -p /home/.brewuser
 sudo chown -R brew:brew /home/.brewuser
 
