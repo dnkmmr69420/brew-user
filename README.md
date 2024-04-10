@@ -34,3 +34,8 @@ Run this to remove homebrew and its other files
 ```bash
 curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/uninstall.sh | bash
 ```
+
+# Known issues and workarounds
+
+### homebrew can't read working directory
+Workaround: Type `cd /home/.brewuser` to change to a workdir that is readable to the brew user.
