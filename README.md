@@ -38,4 +38,4 @@ curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/uninstall.s
 # Known issues and workarounds
 
 ### homebrew can't read working directory
-Workaround: Type `cd /home/.brewuser` to change to a workdir that is readable to the brew user.
+Workaround: Type `cd /` to change to a workdir that is readable to the brew user.
