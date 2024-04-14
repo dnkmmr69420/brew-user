@@ -11,13 +11,13 @@ Brew should work like normal but executing the command would be a little differe
 
 ## Three commands are added
 
-`brewsh` run this to enter a shell in the brew user
+- `brewsh` run this to enter a shell in the brew user
 
-`ebrew` execute commands with privleges of the brew user
+- `ebrew` execute commands with privleges of the brew user (WIP)
 
-`sbrew` runs the `brew` command as brew. Works the same way as the brew command so args and flags would be the same as brew
+- `sbrew` runs the `brew` command as brew. Works the same way as the brew command so args and flags would be the same as brew
 
-brew can be used for things that don't require writing data (like listing packages)
+The `brew` command can be used for things that don't require writing data (like listing packages). If you want to install, uninstall, or update packages, The `sbrew` command is needed.
 
 ## Installation
 
