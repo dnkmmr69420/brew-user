@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 ARGS=$@
-sudo su brew -c bash -c "source /home/.brewuser/.bashrc" && $ARGS
+sudo su brew -c bash -c "source /home/.brewuser/.bashrc && $ARGS"
