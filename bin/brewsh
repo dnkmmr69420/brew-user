@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo su brew
+sudo -i su -l brew
