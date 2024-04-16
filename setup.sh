@@ -13,10 +13,12 @@ sudo chown -R brew:brew /home/linuxbrew
 sudo rm -f /home/linuxbrew/.linuxbrew/bin/brewsh
 sudo rm -f /home/linuxbrew/.linuxbrew/bin/ebrew
 sudo rm -f /home/linuxbrew/.linuxbrew/bin/sbrew
+sudo rm -f /home/.brewuser/.bashrc
 
 sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/brewsh
 sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/ebrew
 sudo wget -P /home/linuxbrew/.linuxbrew/bin https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bin/sbrew
+sudo wget -P /home/.brewuser https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/bash/.bashrc
 if ! [ -f /etc/profile.d/brew.sh ]; then
   sudo wget -P /etc/profile.d https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/profile.d/brew.sh
 fi
