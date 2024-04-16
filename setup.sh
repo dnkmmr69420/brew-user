@@ -24,6 +24,3 @@ fi
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/brewsh
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/ebrew
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/sbrew
-
-sudo cp /etc/skel/.bashrc /home/.brewuser
-sudo cp /etc/skel/.bash_profile /home/.brewuser
