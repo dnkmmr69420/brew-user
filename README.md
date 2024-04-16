@@ -13,7 +13,7 @@ Brew should work like normal but executing the command would be a little differe
 
 - `brewsh` run this to enter a shell in the brew user
 
-- `ebrew` execute commands with privleges of the brew user (WIP)
+- `ebrew` execute commands with privleges of the brew user (Now fixed)
 
 - `sbrew` runs the `brew` command as brew. Works the same way as the brew command so args and flags would be the same as brew
 
