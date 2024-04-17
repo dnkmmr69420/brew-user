@@ -26,3 +26,5 @@ fi
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/brewsh
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/ebrew
 sudo chmod +x /home/linuxbrew/.linuxbrew/bin/sbrew
+
+sudo ln -sf ./.linuxbrew /home/linuxbrew/brew
