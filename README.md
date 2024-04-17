@@ -24,7 +24,7 @@ The `brew` command can be used for things that don't require writing data (like 
 Run this in the terminal
 
 ```bash
-curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/setup.sh | bash
+curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/curl.sh | bash
 ```
 
 ## Uninstallation
