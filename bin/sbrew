@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 ARGS=$@
-sudo su brew -c "/home/linuxbrew/.linuxbrew/bin/brew $ARGS"
+
+/home/linuxbrew/.linuxbrew/bin/ebrew brew $ARGS
