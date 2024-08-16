@@ -39,3 +39,7 @@ curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/uninstall.s
 
 ### homebrew can't read working directory
 Workaround: Type `cd /` to change to a workdir that is readable to the brew user.
+
+### Not compatable with macos
+
+I don't even have a mac to test this on so if you do, feel free to fork this and make it compatable with macos
