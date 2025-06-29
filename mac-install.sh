@@ -9,11 +9,11 @@ sudo dscl . -create /Users/brew UniqueID 510
 sudo dscl . -create /Users/brew PrimaryGroupID 20
 sudo dscl . -create /Users/brew NFSHomeDirectory /opt/brewuser
 sudo mkdir -p /opt/brewuser
-sudo chown -R brewuser:staff /opt/brewuser
+sudo chown -R brew:staff /opt/brewuser
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-sudo chown -R brew:brew /home/linuxbrew
+sudo chown -R brew:staff /opt/homebrew
 
 sudo rm -f /opt/homebrew/bin/brewsh
 sudo rm -f /opt/homebrew/bin/ebrew
