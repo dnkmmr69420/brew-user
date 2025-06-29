@@ -2,6 +2,8 @@
 
 # This only supports Apple Silicon. There will be no plans to make a port for Intel Macs.
 
+Echo "Installing Homebrew..."
+
 sudo dscl . -create /Users/brew
 sudo dscl . -create /Users/brew UserShell /bin/bash
 sudo dscl . -create /Users/brew RealName "Homebrew User"
