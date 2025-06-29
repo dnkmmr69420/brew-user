@@ -4,3 +4,4 @@
 
 sudo dscl . -delete /Users/brew
 sudo rm -rf /opt/brewuser
+sudo rm -rf /opt/homebrew
