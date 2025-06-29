@@ -27,12 +27,22 @@ Run this in the terminal
 curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/curl.sh | bash
 ```
 
+Mac Installation (Experimental)
+```bash
+curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/mac-curl.sh | bash
+```
+
 ## Uninstallation
 
 Run this to remove homebrew and its other files
 
 ```bash
 curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/uninstall.sh | bash
+```
+
+Mac Uninstallation (Experimental)
+```bash
+curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/mac-uninstall.sh | bash
 ```
 
 # Known issues and workarounds
