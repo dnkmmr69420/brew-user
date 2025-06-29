@@ -41,8 +41,12 @@ curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/uninstall.s
 ```
 
 Mac Uninstallation (Experimental)
+
+Just run these
 ```bash
-curl -s https://raw.githubusercontent.com/dnkmmr69420/brew-user/main/mac-uninstall.sh | bash
+sudo dscl . -delete /Users/brew
+sudo rm -rf /opt/brewuser
+sudo rm -rf /opt/homebrew
 ```
 
 # Known issues and workarounds
