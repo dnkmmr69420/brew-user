@@ -1,3 +1,13 @@
 #!/bin/bash
-ARGS=$@
-sudo su brew -c bash -c "source /opt/brewuser/.bashrc && $ARGS"
+BREWRC="/opt/brewuser/.bashrc"
+CACHE="/opt/brewuser/homebrew_cache"
+
+if [[ ! -f "$BREWRC" ]]; then
+  echo "ERROR: $BREWRC not found." >&2
+  exit 1
+fi
+
+sudo -u brew env HOMEBREW_CACHE="$CACHE" bash -c '
+  source "'"$BREWRC"'"
+  exec "$@"
+' bash "$@"
