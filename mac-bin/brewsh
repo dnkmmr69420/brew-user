@@ -1,3 +1,3 @@
 #!/bin/bash
 shellvar=${SHELL:="/bin/bash"}
-/home/linuxbrew/.linuxbrew/bin/ebrew $shellvar
+/opt/homebrew/bin/ebrew $shellvar
