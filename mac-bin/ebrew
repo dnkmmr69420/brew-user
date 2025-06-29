@@ -1,0 +1,3 @@
+#!/bin/bash
+ARGS=$@
+sudo su brew -c bash -c "source /opt/brewuser/.bashrc && $ARGS"
