@@ -23,4 +23,7 @@ sudo rm -f /opt/brewuser/.bashrc
 sudo cp ./mac-bin/brewsh /opt/homebrew/bin/brewsh
 sudo cp ./mac-bin/ebrew /opt/homebrew/bin/ebrew
 sudo cp ./mac-bin/sbrew /opt/homebrew/bin/sbrew
+sudo chmod +x /opt/homebrew/bin/brewsh
+sudo chmod +x /opt/homebrew/bin/ebrew
+sudo chmod +x /opt/homebrew/bin/sbrew
 sudo cp ./mac-bin/.bashrc /opt/brewuser
