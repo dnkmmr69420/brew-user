@@ -10,6 +10,8 @@ sudo dscl . -create /Users/brew RealName "Homebrew User"
 sudo dscl . -create /Users/brew UniqueID 510
 sudo dscl . -create /Users/brew PrimaryGroupID 20
 sudo dscl . -create /Users/brew NFSHomeDirectory /opt/brewuser
+sudo dseditgroup -o edit -a brew -t user admin
+sudo chgrp -R admin /opt/homebrew
 sudo mkdir -p /opt/brewuser
 sudo chown -R brew:staff /opt/brewuser
 
