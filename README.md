@@ -54,6 +54,4 @@ sudo rm -rf /opt/homebrew
 ### homebrew can't read working directory
 Workaround: Type `cd /` to change to a workdir that is readable to the brew user.
 
-### Not compatable with macos
-
-It will be soon though
+### Experimental MacOS support now
