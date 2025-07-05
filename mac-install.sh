@@ -12,6 +12,7 @@ sudo dscl . -create /Users/brew PrimaryGroupID 20
 sudo dscl . -create /Users/brew NFSHomeDirectory /opt/brewuser
 sudo dseditgroup -o edit -a brew -t user admin
 sudo chgrp -R admin /opt/homebrew
+sudo rm -rf /opt/brewuser
 sudo mkdir -p /opt/brewuser
 sudo chown -R brew:staff /opt/brewuser
 
@@ -31,3 +32,5 @@ sudo chmod +x /opt/homebrew/bin/brewsh
 sudo chmod +x /opt/homebrew/bin/ebrew
 sudo chmod +x /opt/homebrew/bin/sbrew
 sudo cp ./mac-bash/.bashrc /opt/brewuser
+sudo cp ./info.txt /opt/brewuser/info.txt
+
