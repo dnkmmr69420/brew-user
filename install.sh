@@ -14,10 +14,12 @@ sudo rm -f /home/linuxbrew/.linuxbrew/bin/brewsh
 sudo rm -f /home/linuxbrew/.linuxbrew/bin/ebrew
 sudo rm -f /home/linuxbrew/.linuxbrew/bin/sbrew
 sudo rm -f /home/.brewuser/.bashrc
+sudo rm -f /home/.brewuser/info.txt
 
 sudo cp ./bin/brewsh /home/linuxbrew/.linuxbrew/bin/brewsh
 sudo cp ./bin/ebrew /home/linuxbrew/.linuxbrew/bin/ebrew
 sudo cp ./bin/sbrew /home/linuxbrew/.linuxbrew/bin/sbrew
+sudo cp ./info.tcxt /home/.brewuser/info.txt
 sudo cp ./bash/.bashrc /home/.brewuser
 if ! [ -f /etc/profile.d/brew.sh ]; then
   sudo cp ./profile.d/brew.sh /etc/profile.d
