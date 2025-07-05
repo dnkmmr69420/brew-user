@@ -1,0 +1,2 @@
+This file is placed by brew user installation script which is a program that creates a dedicated user for homebrew. Link will lead to project for more info.
+Link: https://github.com/dnkmmr69420/brew-user/tree/main
